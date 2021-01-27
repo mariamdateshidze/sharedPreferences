@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">save</string>
+    <string name="Email" />
+    <string name="First_name" />
+    <string name="Last_name" />
+    <string name="Age" />
+    <string name="Address" />
+</resources>

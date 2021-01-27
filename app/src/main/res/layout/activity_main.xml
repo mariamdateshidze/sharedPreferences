@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCE4EC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailED"
+        android:paddingStart="10dp"
+        android:hint="Email"
+        android:textColorHint="#D9D5DC"
+        android:textStyle="bold"
+        android:background="#EF9A9A"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/firstNameED"
+        android:textColorHint="#D9D5DC"
+        android:textStyle="normal"
+        android:paddingStart="10dp"
+        android:background="#EF9A9A"
+        android:hint="First_name"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/lastNameED"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#D9D5DC"
+        android:background="#EF9A9A"
+        android:paddingStart="10dp"
+        android:hint="Last_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ageED"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColorHint="#D9D5DC"
+        android:background="#EF9A9A"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/addressED"
+        android:hint="Address"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#D9D5DC"
+        android:background="#EF9A9A"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveButton"
+        android:text="save"
+        android:onClick="save"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="#89898A"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+</LinearLayout>
